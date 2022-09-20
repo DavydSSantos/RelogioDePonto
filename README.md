@@ -18,4 +18,6 @@ Essa interface em Python funciona como um simples CRUD, criando usuários no ban
 
 É possível trabalhar comprovadamente com Linux e Windows, sendo necessário pouco poder de processamento e baixo consumo de memória RAM. No Linux optei pro deixar os programas rodando o tempo todo por meio do SystemMD, sendo preciso apenas verificar permissões para gravar e editar planilhas nas pastas. No Windows ainda não encontrei uma solução para que o programa reinicie o tempo todo, caso feche por algum motivo. É necessário também uma câmera, para realizar a leitura do código QR. Também é preciso algumas bibliotecas que eu deixarei o método para instalação abaixo
 
+Se você deseja utilizar a versão TKinter, é preciso que você acesse pasta "Add ao Diretorio", copie os dois executáveis que há dentro da pasta e cole eles dentro da pasta onde está o seu "python.exe". Normalmente esse é o caminho padrão na última versão -> C:\AppData\Local\Programs\Python\Python310
+
 Me contate se necessário -> 1davydsantos@gmail.com
