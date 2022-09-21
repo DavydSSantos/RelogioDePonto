@@ -14,11 +14,11 @@ Agora estou utilizando para gerenciar esse progama uma interface web, que ficou 
 
 Essa interface em Python funciona como um simples CRUD, criando usuários no banco de dados, atualizando eles e deletando. Preferi por não deixar a opção de alterar nomes de funcionários, para não causar conflito. Após criado o programa gera um QR, que carrega a informação de ID do funcionário. Baseando-se apenas no ID, não há problema de haver mais um funcionário com o mesmo nome. Quando o programa "LerEscrever.py" verificar o QR, ele automaticamente faz todo o processo, verifica se há uma planilha existente, se é necessário criar, e por fim preenche toda a planilha. Quando ela estiver completamente preenchida, o programa guardará essa planilha cheia e iniciará uma nova. O programa "ReenvioXLSX.py" tem a função de reenviar planilhas, caso venha a acontecer algum problema na hora da gravação da planilha. É possível alterar informações necessárias, como IP ou senha do banco de dados pelo "Config.py". O processo é realizado de forma fácil se tudo for feito localmente, mas também é possível movimentar as planilhas para servidores remotos. Essa é uma função da qual desisti, devido ao trabalho excessivo e a grande quantidade de prevenção de erros, mas ela ainda estará disponível na versão do TKinter. Para utilizar a versão do TKinter, bastá executar o "Janela.py". Mais um ponto a se resaltar é que a só uma planilha especifica poderá conversar com esse programa, não qualquer arquivo .xlsx, que é o "Modelo.xlsx". É possível alterar para trabalhar com outras planilhas, você pode me contatar caso precise de ajuda com isso, mas essa planilha pronta é bem completa e realiza muitas funções automaticamente, então te recomendo fortemente a deixar da forma padrão.
 
-Você pode encontrar as planilhas em -> Planilhas
+Você pode encontrar as planilhas em -> \Planilhas
 
-Você pode encontrar planilhas cheias em -> CheiasXLSX
+Você pode encontrar planilhas cheias em -> \CheiaXLSX
 
-Você pode encontrar o QR do funcionário em -> QRCode
+Você pode encontrar o QR do funcionário em -> \QRCode
 
 Você pode configurar diretórios e variáveis para conexão com o banco em -> Config.py
 
@@ -55,6 +55,7 @@ pip3 install python-time -> https://pypi.org/project/python-time/
 pip3 install requests -> https://pypi.org/project/requests/
 
 Você pode ver para que uso cada biblioteca em -> Pacotes.py
+Caso queira agilizar e instalar tudo utilize -> InstallPack.bat
 
 - REGRAS E DICAS
 
