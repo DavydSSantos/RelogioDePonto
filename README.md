@@ -1,7 +1,7 @@
 # Relogio de Ponto
 Programa em Python capaz de trabalhar como um relógio de ponto, exportando diretamente para XLSX.
 
-##- BREVE RESUMO
+## - BREVE RESUMO
 
 Essa é a minha mais nova criação em Python, um programa que faz tudo que é necessário para funcionar como um legítimo relógio de ponto.
 Comentei praticamente tudo no meu código, então é possível compreender sem dificuldade, mas ainda tenho várias revisões para fazer. 
