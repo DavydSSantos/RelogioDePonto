@@ -22,7 +22,7 @@ import datetime
 import mysql.connector
 import openpyxl
 import os
-import ping3
+#import ping3      -> DESATIVADO
 import png
 import psutil
 import pyqrcode
@@ -39,7 +39,6 @@ from datetime             import datetime
 from datetime             import timedelta
 from openpyxl             import load_workbook
 from os                   import listdir
-from ping3                import ping
 from pyqrcode             import QRCode
 from tkinter              import *
 from tkinter.scrolledtext import ScrolledText

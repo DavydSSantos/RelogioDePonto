@@ -1,13 +1,10 @@
-pip3 install ctypes
 pip3 install opencv-python
 pip3 install datetime
 pip3 install mysql-connector-python
 pip3 install openpyxl
-pip3 install ping3
 pip3 install pypng
 pip3 install psutil
 pip3 install pyqrcode
 pip3 install pytest-shutil
 pip3 install python-time
-pip3 install tkinter 
 pip3 install requests
