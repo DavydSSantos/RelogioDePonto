@@ -38,25 +38,25 @@ Também é preciso algumas bibliotecas que eu deixarei o método para instalaç�
 
 ### - BIBLIOTECAS NECESSÁRIAS
 
-pip3 install opencv-python -> https://pypi.org/project/opencv-python/
+[OpenCV](https://pypi.org/project/opencv-python/)
 
-pip3 install datetime -> já faz parte do python, mas instale mesmo assim 
+[MySQL Connector](https://pypi.org/project/mysql-connector-python/)
 
-pip3 install mysql-connector-python -> https://pypi.org/project/mysql-connector-python/
+[OpenPyXL](https://pypi.org/project/openpyxl/)
 
-pip3 install openpyxl -> https://pypi.org/project/openpyxl/
+[PyPNG](https://pypi.org/project/pypng/)
 
-pip3 install pypng -> https://pypi.org/project/pypng/
+[PSutil](https://pypi.org/project/psutil/)
 
-pip3 install psutil -> https://pypi.org/project/psutil/
+[PyQRCode](https://pypi.org/project/PyQRCode/)
 
-pip3 install pyqrcode -> https://pypi.org/project/PyQRCode/
+[PyTest Shutil](https://pypi.org/project/pytest-shutil/)
 
-pip3 install pytest-shutil -> https://pypi.org/project/pytest-shutil/
+[Python Time](https://pypi.org/project/python-time/)
 
-pip3 install python-time -> https://pypi.org/project/python-time/
+[Requests](https://pypi.org/project/requests/)
 
-pip3 install requests -> https://pypi.org/project/requests/
+Já faz parte do python, mas instale mesmo assim -> **pip3 install datetime**
 
 Você pode ver para que uso cada biblioteca em -> \Pacotes.py
 
