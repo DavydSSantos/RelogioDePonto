@@ -1,0 +1,12 @@
+''' CÓDIGO PARA CRIAÇÃO DO BANCO '''
+
+CREATE DATABASE `relogio_ponto` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+
+''' CÓDIGO PARA CRIAÇÃO DA TABELA '''
+
+CREATE TABLE `info_funci` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  `ultimo_ponto` datetime DEFAULT '2022-01-01 00:00:00',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
