@@ -1,0 +1,1 @@
+Como o GitHub não traz diretórios vazios, este arquivo está sendo criado apenas para manter a pasta no repositório.
