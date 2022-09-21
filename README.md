@@ -78,6 +78,8 @@ Se é sua vontade apenas pegar e usar, recomendo que cole a pasta "CartaoPontoTK
 
 É possível fazer um sistema que funcione online, interligando lojas.
 
+Não utilizei a versão TKinter no Linux então não sei se é estável.
+
 Se está tendo uma dificuldade na execução dos arquivos .py, verifique o "log_file.txt" ou rode o script isoladamente em uma IDE com depuração ou no IDLE do Python.
 
 Me contate se necessário -> 1davydsantos@gmail.com
