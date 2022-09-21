@@ -4,7 +4,7 @@ Programa em Python capaz de trabalhar como um relógio de ponto, exportando dire
 - BREVE RESUMO
 
 Essa é a minha mais nova criação em Python, um programa que faz tudo que é necessário para funcionar como um legítimo relógio de ponto.
-Comentei praticamente tudo no meu código, então é possível compreender meu código sem dificuldade, mas ainda tenho várias revisões para fazer. 
+Comentei praticamente tudo no meu código, então é possível compreender sem dificuldade, mas ainda tenho várias revisões para fazer. 
 
 Projetei inicialmente para que um janela do TKinter gerenciasse os serviços, mas ela está 80% funcional. Vou adicionar essa versão separadamente, mas não pretendo mais atualizar ela, visto que tenho um caminho melhor e mais prático.
 
@@ -27,6 +27,20 @@ Você pode iniciar todo o processo do modelo TKinter executando -> Janela.py
 - REQUISITOS
 
 É possível trabalhar comprovadamente com Linux e Windows, sendo necessário pouco poder de processamento e baixo consumo de memória RAM. No Linux optei pro deixar os programas rodando o tempo todo por meio do SystemMD, sendo preciso apenas verificar permissões para gravar e editar planilhas nas pastas. No Windows ainda não encontrei uma solução para que o programa reinicie o tempo todo, caso feche por algum motivo. É necessário também uma câmera, para realizar a leitura do código QR. Também é preciso algumas bibliotecas que eu deixarei o método para instalação abaixo:
+
+pip3 install opencv-python -> https://pypi.org/project/opencv-python/
+pip3 install datetime -> já faz parte do python, mas instale mesmo assim 
+pip3 install mysql-connector-python -> https://pypi.org/project/mysql-connector-python/
+pip3 install openpyxl -> https://pypi.org/project/openpyxl/
+pip3 install pypng -> https://pypi.org/project/pypng/
+pip3 install psutil -> https://pypi.org/project/psutil/
+pip3 install pyqrcode -> https://pypi.org/project/PyQRCode/
+pip3 install pytest-shutil -> https://pypi.org/project/pytest-shutil/
+pip3 install python-time -> https://pypi.org/project/python-time/
+pip3 install tkinter -> ?
+pip3 install requests -> https://pypi.org/project/requests/
+
+Você pode ver para que uso cada biblioteca em -> Pacotes.py
 
 Não é necessário excel ou qualquer outro leitor de arquivos .xlsx para utilizar esse programa, a não ser para visualizar as planilhas posteriormente.
 
