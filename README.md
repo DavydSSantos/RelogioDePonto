@@ -38,7 +38,7 @@ Se utilizar a versão TKinter, ao iniciar o "Bater o ponto", não se esqueça de
 
 Há um arquivo .txt chamado "Query.txt", que já tem o query para você criar o banco e a tabela exatamente como já está configurado, caso seja seu desejo.
 
-Se é sua vontade apenas pegar e usar, recomendo que cole a pasta "CartaoPonto" diretamente na raiz "C:".
+Se é sua vontade apenas pegar e usar, recomendo que cole a pasta "CartaoPontoTKinter" diretamente na raiz "C:".
 
 É possível usar um servidor externo para armazenamento das planilhas apenas mudando o texto dá variável do "DiretorioServer" dentro de "Config.py".
 
