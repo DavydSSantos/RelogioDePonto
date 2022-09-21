@@ -26,27 +26,37 @@ Você pode iniciar todo o processo do modelo TKinter executando -> Janela.py
 
 - REQUISITOS
 
-É possível trabalhar comprovadamente com Linux e Windows, sendo necessário pouco poder de processamento e baixo consumo de memória RAM. No Linux optei pro deixar os programas rodando o tempo todo por meio do SystemMD, sendo preciso apenas verificar permissões para gravar e editar planilhas nas pastas. No Windows ainda não encontrei uma solução para que o programa reinicie o tempo todo, caso feche por algum motivo. É necessário também uma câmera, para realizar a leitura do código QR. Também é preciso algumas bibliotecas que eu deixarei o método para instalação abaixo:
-
-pip3 install opencv-python -> https://pypi.org/project/opencv-python/
-pip3 install datetime -> já faz parte do python, mas instale mesmo assim 
-pip3 install mysql-connector-python -> https://pypi.org/project/mysql-connector-python/
-pip3 install openpyxl -> https://pypi.org/project/openpyxl/
-pip3 install pypng -> https://pypi.org/project/pypng/
-pip3 install psutil -> https://pypi.org/project/psutil/
-pip3 install pyqrcode -> https://pypi.org/project/PyQRCode/
-pip3 install pytest-shutil -> https://pypi.org/project/pytest-shutil/
-pip3 install python-time -> https://pypi.org/project/python-time/
-pip3 install tkinter -> ?
-pip3 install requests -> https://pypi.org/project/requests/
-
-Você pode ver para que uso cada biblioteca em -> Pacotes.py
-
-Não é necessário excel ou qualquer outro leitor de arquivos .xlsx para utilizar esse programa, a não ser para visualizar as planilhas posteriormente.
+É possível trabalhar comprovadamente com Linux e Windows, sendo necessário pouco poder de processamento e baixo consumo de memória RAM. No Linux optei pro deixar os programas rodando o tempo todo por meio do SystemMD, sendo preciso apenas verificar permissões para gravar e editar planilhas nas pastas. No Windows ainda não encontrei uma solução para que o programa reinicie o tempo todo, caso feche por algum motivo. É necessário também uma câmera, para realizar a leitura do código QR. Não é necessário excel ou qualquer outro leitor de arquivos .xlsx para utilizar esse programa, a não ser para visualizar as planilhas posteriormente. 
 
 Se você deseja utilizar a versão TKinter, é preciso que você acesse pasta "Add ao Diretorio", copie os dois executáveis que há dentro da pasta e cole eles dentro da pasta onde está o seu "python.exe". Normalmente esse é o caminho padrão na última versão -> C:\AppData\Local\Programs\Python\Python310
 
-Me contate se necessário -> 1davydsantos@gmail.com
+Também é preciso algumas bibliotecas que eu deixarei o método para instalação abaixo:
+
+- BIBLIOTECAS NECESSÁRIAS
+
+pip3 install opencv-python -> https://pypi.org/project/opencv-python/
+
+pip3 install datetime -> já faz parte do python, mas instale mesmo assim 
+
+pip3 install mysql-connector-python -> https://pypi.org/project/mysql-connector-python/
+
+pip3 install openpyxl -> https://pypi.org/project/openpyxl/
+
+pip3 install pypng -> https://pypi.org/project/pypng/
+
+pip3 install psutil -> https://pypi.org/project/psutil/
+
+pip3 install pyqrcode -> https://pypi.org/project/PyQRCode/
+
+pip3 install pytest-shutil -> https://pypi.org/project/pytest-shutil/
+
+pip3 install python-time -> https://pypi.org/project/python-time/
+
+pip3 install tkinter -> ?
+
+pip3 install requests -> https://pypi.org/project/requests/
+
+Você pode ver para que uso cada biblioteca em -> Pacotes.py
 
 - REGRAS E DICAS
 
@@ -65,3 +75,5 @@ Se é sua vontade apenas pegar e usar, recomendo que cole a pasta "CartaoPontoTK
 É possível fazer um sistema que funcione online, interligando lojas.
 
 Se está tendo uma dificuldade na execução dos arquivos .py, verifique o "log_file.txt" ou rode o script isoladamente em uma IDE com depuração ou no IDLE do Python.
+
+Me contate se necessário -> 1davydsantos@gmail.com
