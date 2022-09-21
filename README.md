@@ -30,6 +30,10 @@ Você pode iniciar todo o processo do modelo TKinter executando -> Janela.py
 
 Se você deseja utilizar a versão TKinter, é preciso que você acesse pasta "Add ao Diretorio", copie os dois executáveis que há dentro da pasta e cole eles dentro da pasta onde está o seu "python.exe". Normalmente esse é o caminho padrão na última versão -> C:\AppData\Local\Programs\Python\Python310
 
+Será necessário instalar o Python, de preferência o mais atual -> https://www.python.org/downloads/
+
+Será necessário instalar o MySQL, eu estou utilizando este em meus testes -> https://dev.mysql.com/downloads/installer/
+
 Também é preciso algumas bibliotecas que eu deixarei o método para instalação abaixo:
 
 - BIBLIOTECAS NECESSÁRIAS
