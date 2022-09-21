@@ -54,8 +54,9 @@ pip3 install python-time -> https://pypi.org/project/python-time/
 
 pip3 install requests -> https://pypi.org/project/requests/
 
-Você pode ver para que uso cada biblioteca em -> Pacotes.py
-Caso queira agilizar e instalar tudo utilize -> InstallPack.bat
+Você pode ver para que uso cada biblioteca em -> \Pacotes.py
+
+Caso queira agilizar e instalar todas as bibliotecas, utilize -> InstallPack.bat
 
 - REGRAS E DICAS
 
