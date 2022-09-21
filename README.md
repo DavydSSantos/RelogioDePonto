@@ -52,8 +52,6 @@ pip3 install pytest-shutil -> https://pypi.org/project/pytest-shutil/
 
 pip3 install python-time -> https://pypi.org/project/python-time/
 
-pip3 install tkinter -> ?
-
 pip3 install requests -> https://pypi.org/project/requests/
 
 Você pode ver para que uso cada biblioteca em -> Pacotes.py
